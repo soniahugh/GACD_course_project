@@ -7,7 +7,7 @@ This repo contains data, scripts and metadata required for Coursera's Getting an
 
 This Markdown document details how the scripting works for the run_analysis.R script.
  
-This script assumes that that the UCI HAR Dataset has already been downloaded and unzipped from <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>.  It takes the dataset merges and transforms the raw dataset into table (tidy_data) that finds the average of each variable for each activity and subject.  The code will not run unless the working directory is set.
+This script assumes that that the UCI HAR Dataset has already been downloaded and unzipped from <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>.  It takes the dataset, merges and transforms the raw dataset into a table (tidy_data) that has the average of each variable for each activity and subject.  The code will not run unless the working directory is set.
 
 ##How the script works##
 
